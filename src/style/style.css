@@ -18,21 +18,26 @@ aside{
 .container {
     background-color: #302F3D;
     border-radius: 20px;
-    width: 350px;
-    height: 292px;
-    left: 40px;
-    top: 40px;
+    width: 348px;
+    height: auto;
     display: flex;
+    flex-direction: column;
     
 }
+
 #profile-container {
+    margin-top: 32px;
+    margin-bottom: 49px;
+
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     width: 100%;
     height: 100%;
+    gap: 30px;
 }
+
 
 #profile-container img {
     width: 128px;
@@ -40,7 +45,15 @@ aside{
     border-radius: 100%;
     border: 1px solid #00ff00;
 }
+#profile-container ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+
 #links-container {
+    margin: 34px 0;
+   
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,13 +81,94 @@ aside{
 }
 
 #technologies-container {
-    width: 100%;
-    height: 100%;
+    margin:30px 0;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
 }
 
+#technologies-container h3 {
+    padding: 0 207px 20px 20px ;
+}
+    
+#technologies-container ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+#technologies-container ul li{
+    color: #000;
+    background-color: #cb92b1;
+    border-radius: 30px;
+    width: 86px;
+    height:24px;
+    
+    font-size: 12px;
+    font-weight: 700;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+#technologies-container ul li:hover{
+    color: red;
+    background-color: #c27ba2;
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+    transform: scale(1.1);
+    
+}
+#experiences-container {
+    
+    display: flex;
+    flex-direction: column;
+  
+    
+}
+
+#experiences-container h3 {
+    padding: 30px 207px 20px 20px ;
+    size: 20px;
+    font-weight: 700;
+}
+#education-container h3 {
+    padding: 30px 207px 20px 20px ;
+    size: 20px;
+    font-weight: 700;
+}
+.list{
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+    gap: 15px;
+    padding: 20px 0 30px 40px ;
+}
+    
+.list ul li{
+    list-style-type:disc;
+    text-transform: uppercase;
+    
+}
+.list ul p{
+    padding: 0 20px 0 15px;
+    
+}
+
+
+
 footer{
-    display: block;
+    align-items: center;
+    text-align: center;
+    display: block ;
     bottom: 0;
     left: 0;
+}
+
+footer hr{
+    width: 98.69vw;
 }
 
