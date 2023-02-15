@@ -122,6 +122,7 @@ aside{
     transform: scale(1.1);
     
 }
+
 #experiences-container {
     
     display: flex;
@@ -158,7 +159,90 @@ aside{
     
 }
 
+.container-large{
+    margin:40px 40px 31px 0;
+    width: 800px;
+    height: 86px;
+    background-color: #302F3D;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#projects-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    padding: 30px;
+}
+#projects{
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 40px 30px 0;
+    gap: 30px;
+    
+}
+.last-projects{
+    max-width: 461px;
+    height: 186px;
 
+    background-color: #302F3D;
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction:column;
+    
+
+}
+
+.last-projects a{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    
+}
+
+.last-projects h4{
+    padding: 30px 30px 0;
+    display: flex;
+    gap: 16px;
+}
+
+.last-projects p{
+    padding: 0 30px;}
+
+#project-footer {
+    padding:0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#branch{
+    
+    gap: 8px;
+    display: flex;
+    align-items: center;
+}
+#branch p {
+    display: flex;
+    gap: 3px;
+}
+#projects-tecnology{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
+}
+#projects-tecnology p{
+
+    display: flex;
+    gap: 3px;
+}
 
 footer{
     align-items: center;
